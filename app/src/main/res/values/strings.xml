@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Settings Sortcut</string>
+
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="network_change_forcely">Network Change Forcely</string>
+    <string name="developer_mode">Developer Mode</string>
+    <string name="application_settings">Application Settings</string>
+    <string name="manage_application">Manage Application</string>
+    <string name="accessibility_settings">Accessibility Settings</string>
+    <string name="add_account">Add Account</string>
+    <string name="search_settings">Search Settings</string>
+    <string name="device_info">Device Info</string>
+    <string name="user_dictionary">User Dictionary</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
