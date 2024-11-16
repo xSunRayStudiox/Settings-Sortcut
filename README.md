@@ -30,7 +30,7 @@ This app utilizes the **Navigation Component** for managing navigation between f
 ![Home Screen](screenshots/home_screen.png)
 
 ### Settings Details
-![Settings Details](screenshots/settings_details.png)
+![Settings Details](Screenshot_2024-11-16-15-03-43-457_com.sun_ray.LTE_4G[1].jpg)
 
 *(Ensure your screenshots are stored in a `screenshots` folder in the root directory.)*
 
