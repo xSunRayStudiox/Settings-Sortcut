@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Fragment_About">
 
-    <TextView
-        android:id="@+id/title"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/autour_one"
         android:gravity="center_vertical"
-        android:padding="20dp"
-        android:text="@string/about"
-        android:textColor="?attr/colorControlNormal"
-        android:textSize="20sp" />
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/autour_one"
+            android:padding="7dp"
+            android:text="@string/about"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/rateUs"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_share" />
+
+        <ImageView
+            android:id="@+id/more_apps"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_more_apps" />
+
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"
@@ -31,72 +55,11 @@
         android:scrollIndicators="none"
         android:scrollbars="vertical">
 
-        <LinearLayout
+        <WebView
+            android:id="@+id/webView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:ignore="WebViewLayout">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="5dp"
-                android:orientation="vertical"
-                android:padding="3dp">
-
-                <TextView
-                    android:id="@+id/rateUs"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:fontFamily="@font/autour_one"
-                    android:gravity="center_vertical"
-                    android:padding="7dp"
-                    android:text="Rate Us"
-                    android:textSize="15sp"
-                    app:drawableEndCompat="@drawable/ic_right_arrow" />
-
-                <TextView
-                    android:id="@+id/more_apps"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="?attr/selectableItemBackground"
-                    android:fontFamily="@font/autour_one"
-                    android:gravity="center_vertical"
-                    android:padding="7dp"
-                    android:text="More Apps"
-                    android:textSize="15sp"
-                    app:drawableEndCompat="@drawable/ic_right_arrow" />
-
-            </LinearLayout>
-
-            <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tab_layout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:background="#E6E3E3"
-                app:tabGravity="fill"
-                app:tabIndicatorColor="?attr/colorControlNormal"
-                app:tabIndicatorHeight="4dp"
-                app:tabMode="scrollable"
-                app:tabSelectedTextColor="?attr/colorControlActivated"
-                app:tabTextColor="?attr/colorControlNormal" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="#AAACAC" />
-
-            <WebView
-                android:id="@+id/about_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp" />
-
-        </LinearLayout>
+            android:layout_marginBottom="10dp" />
 
     </ScrollView>
 

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragment_navigate"
     app:startDestination="@id/fragment_Home">
 
     <fragment
         android:id="@+id/fragment_Home"
         android:name="com.sun_ray.LTE_4G.Fragment_Home"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
+        android:label="fragment_home">
         <action
             android:id="@+id/action_fragment_Home_to_fragment_About"
             app:destination="@id/fragment_About" />
@@ -17,6 +14,5 @@
     <fragment
         android:id="@+id/fragment_About"
         android:name="com.sun_ray.LTE_4G.Fragment_About"
-        android:label="fragment_about"
-        tools:layout="@layout/fragment_about" />
+        android:label="fragment_about" />
 </navigation>

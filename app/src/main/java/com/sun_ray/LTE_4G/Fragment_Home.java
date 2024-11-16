@@ -5,26 +5,17 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.PorterDuff;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
-
 import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ScrollView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.material.tabs.TabLayout;
-
-import java.util.Objects;
+import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 
 public class Fragment_Home extends Fragment {
 
@@ -162,8 +153,7 @@ public class Fragment_Home extends Fragment {
     }
 
     private static boolean isDeveloperModeOn(Context context) {
-        int developer =
-                Settings.Global.getInt(context.getContentResolver(),
+        int developer = Settings.Global.getInt(context.getContentResolver(),
                         Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 0);
         return developer != 0;
     }

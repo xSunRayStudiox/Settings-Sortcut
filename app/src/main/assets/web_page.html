@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <style>
+        body.dark-mode{
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        body.light-mode{
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+        li{
+            line-height: 1.5;
+        }
+        .note {
+            background-color: #f9f9f9;
+            color:#000000;
+            border-left: 3px solid #ffcc00;
+            padding: 10px;
+            line-height:1.5;
+            margin: 20px 0;
+        }
+        ol {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body class="light-mode">
+
+<div>
+    <hr/>
+    <h3>Network Change Forcely</h3>
+    <h4>Dialer Method:</h4>
+    <ol>
+        <li>Open the phone's dialer app.</li>
+        <li>Enter the following code: <code>##4636##</code></li>
+        <li>A hidden menu will appear. Select 'Phone information' to access the RadioInfo screen.
+        </li>
+    </ol>
+    <h4>Direct Access (if supported by your Device):</h4>
+    <ol>
+        <li>Open your app and navigate to the RadioInfo section.</li>
+        <li>Follow the in-app instructions to access the RadioInfo screen.</li>
+    </ol>
+    <h4>How to use:</h4>
+    <ul>
+        <li><b>Turn Radio On/Off:</b> Enables or disables the phone's radio.</li>
+        <li><b>Select Phone Index:</b> <br>Phone 0 = SIM 1<br>Phone 1 = SIM 2</li>
+        <li><b>Set Preferred Network Type:</b> Allows you to choose the preferred network type.</li>
+        <li><b>Some Network Type</b> <br>LTE only = 4G<br>NR only = 5G</li>
+        <li><b>Run Ping Test:</b> Tests connectivity to the network.</li>
+    </ul>
+    <h4>Additional Information:</h4>
+    <ul>
+        <li><b>Neighboring Cell Info:</b> Displays information about neighboring cell towers.</li>
+        <li><b>Data Service and Activity:</b> Shows the status of data services and their activity.
+        </li>
+        <li><b>SMS Service Center Number:</b> Displays the number of the SMS service center.</li>
+    </ul>
+</div>
+
+<div>
+    <hr/>
+    <h3>Enable Developer Mode</h3>
+    <ol>
+        <li><strong>Open Settings:</strong> Start by opening the Settings app on your Android
+            device.
+        </li>
+        <li><strong>Navigate to About Phone:</strong> Scroll down and select "About phone" or "About
+            device."
+        </li>
+        <li><strong>Find Build Number:</strong> Look for "Build number," which may be located under
+            "Software information" or similar.
+        </li>
+        <li><strong>Enable Developer Mode:</strong> Tap "Build number" multiple times (usually
+            seven)
+            until you see a message saying "You are now a developer!" You might be prompted to enter
+            your device's PIN or password.
+        </li>
+    </ol>
+    <h4>Accessing Developer Options</h4>
+    <ol>
+        <li><strong>Go Back to Settings:</strong> Return to the main Settings menu.</li>
+        <li><strong>Open Developer Options:</strong> You should now see a new menu item called
+            "Developer options" or "System" -> "Developer options."
+        </li>
+    </ol>
+
+    <h4>Using Developer Options</h4>
+    <ul>
+        <li><strong>USB Debugging:</strong> Enable this to allow your device to communicate with a
+            computer for development purposes.
+        </li>
+        <li><strong>OEM Unlocking:</strong> This allows you to unlock the bootloader, which is
+            necessary
+            for certain types of device modifications.
+        </li>
+        <li><strong>Stay Awake:</strong> Keeps the screen on while charging, useful for testing
+            apps.
+        </li>
+        <li><strong>Show Taps:</strong> Displays visual feedback for touch interactions.</li>
+        <li><strong>Limit Background Processes:</strong> Controls the number of processes that can
+            run
+            in the background.
+        </li>
+    </ul>
+
+    <div class="note">
+        <strong>Note:</strong> Changing settings in Developer Options can affect the performance and
+        stability of your device. Only adjust settings if you understand their impact.
+    </div>
+</div>
+
+<div>
+    <hr/>
+    <h3>Application Settings</h3>
+    <ol>
+        <li><strong>Select an App:</strong> From the list of apps, select the app you want to
+            manage.
+        </li>
+        <li><strong>App Info:</strong> You will see the App Info screen with various options to
+            manage the app settings. The options typically include:
+        </li>
+    </ol>
+
+    <ul>
+        <li><strong>Disable:</strong> This option will disable the app, preventing it from running
+            and appearing in the app drawer. Useful for pre-installed apps that cannot be
+            uninstalled.
+        </li>
+        <li><strong>Force Stop:</strong> Stops the app from running. Use this if an app is
+            unresponsive or behaving abnormally.
+        </li>
+        <li><strong>Notifications:</strong> Customize how the app sends notifications, including
+            turning them off entirely.
+        </li>
+        <li><strong>Permissions:</strong> Adjust the permissions granted to the app, such as access
+            to the camera, location, or contacts.
+        </li>
+        <li><strong>Storage & Cache:</strong> Manage the app's storage by clearing its cache or
+            data.
+        </li>
+        <li><strong>Screen Time:</strong> View how much time you have spent using the app.</li>
+        <li><strong>Battery & Performance:</strong> Check the app's battery usage and manage its
+            background activity to save battery life.
+        </li>
+        <li><strong>Open by Default:</strong> Set or clear default actions for the app.</li>
+    </ul>
+
+    <h4>Additional Management Options</h4>
+    <ol>
+        <li><strong>Special App Access:</strong> In the "Apps & notifications" menu, select
+            "Advanced" and then "Special app access" to manage specific permissions like battery
+            optimization, device admin apps, and more.
+        </li>
+        <li><strong>Default Apps:</strong> Set default apps for actions like browsing, messaging,
+            and calling by selecting "Default apps" in the "Apps & notifications" menu.
+        </li>
+        <li><strong>App Permissions:</strong> In the "Apps & notifications" menu, select
+            "Permissions manager" to manage permissions for all apps from one place.
+        </li>
+    </ol>
+
+    <div class="note">
+        <strong>Note:</strong> Changing app settings can affect how apps behave on your device. Make
+        sure to understand the impact of each setting before making changes.
+    </div>
+</div>
+
+<div>
+    <hr/>
+    <h3>Manage Application</h3>
+    <ol>
+        <li><strong>Open Settings:</strong> Start by opening the Settings app on your Android
+            device.
+        </li>
+        <li><strong>Navigate to Apps & Notifications:</strong> Scroll down and select "Apps &
+            notifications" or simply "Apps" depending on your device.
+        </li>
+        <li><strong>View All Apps:</strong> Tap on "See all apps" or "App info" to see the list of
+            all installed applications.
+        </li>
+    </ol>
+
+    <h4>Managing Individual App Settings</h4>
+    <ol>
+        <li><strong>Select an App:</strong> From the list of apps, select the app you want to
+            manage.
+        </li>
+        <li><strong>App Info:</strong> You will see the App Info screen with various options to
+            manage the app settings.
+        </li>
+        <li><strong>Force Stop:</strong> Stops the app from running. Use this if an app is
+            unresponsive or behaving abnormally.
+        </li>
+        <li><strong>Uninstall:</strong> Removes the app from your device. Note that some
+            pre-installed apps cannot be uninstalled but can be disabled.
+        </li>
+        <li><strong>Storage & Cache:</strong> Manage the app's storage by clearing its cache or
+            data.
+        </li>
+        <li><strong>Permissions:</strong> Adjust the permissions granted to the app, such as access
+            to the camera, location, or contacts.
+        </li>
+        <li><strong>Notifications:</strong> Customize how the app sends notifications, including
+            turning them off entirely.
+        </li>
+        <li><strong>Data Usage:</strong> View and manage the app's data usage, including background
+            data restrictions.
+        </li>
+    </ol>
+
+    <h4>Additional Settings</h4>
+    <ol>
+        <li><strong>Special App Access:</strong> In the "Apps & notifications" menu, select
+            "Advanced" and then "Special app access" to manage specific permissions like battery
+            optimization, device admin apps, and more.
+        </li>
+        <li><strong>Default Apps:</strong> You can set default apps for actions like browsing,
+            messaging, and calling by selecting "Default apps" in the "Apps & notifications" menu.
+        </li>
+    </ol>
+
+    <div class="note">
+        <strong>Note:</strong> Changing app settings can affect how apps behave on your device. Make
+        sure to understand the impact of each setting before making changes.
+    </div>
+</div>
+
+<div>
+    <hr/>
+    <h3>Accessibility Settings</h3>
+    <ol>
+        <li><strong>Open Settings:</strong> Start by opening the Settings app on your Android
+            device.
+        </li>
+        <li><strong>Navigate to Accessibility:</strong> Scroll down and select "Accessibility."</li>
+    </ol>
+
+    <ul>
+        <li><strong>Screen Reader:</strong> Enables TalkBack or a similar feature to provide spoken
+            feedback for users with visual impairments.
+        </li>
+        <li><strong>Text-to-Speech Output:</strong> Configure the settings for text-to-speech
+            services, such as selecting the preferred engine and adjusting speech rate and pitch.
+        </li>
+        <li><strong>Display Settings:</strong> Adjust settings like font size, display size, and
+            color correction to make the screen easier to read.
+        </li>
+        <li><strong>Magnification:</strong> Enable magnification gestures to zoom in on the screen
+            using specific touch gestures.
+        </li>
+        <li><strong>Interaction Controls:</strong> Customize how you interact with your device,
+            including features like accessibility shortcuts, touch and hold delay, and physical
+            keyboard settings.
+        </li>
+        <li><strong>Hearing Enhancements:</strong> Adjust settings for hearing aids, mono audio, and
+            captions to assist users with hearing impairments.
+        </li>
+        <li><strong>Accessibility Shortcuts:</strong> Set up shortcuts to quickly access
+            accessibility features using physical buttons or gestures.
+        </li>
+        <li><strong>Switch Access:</strong> Allows users with motor impairments to control their
+            device using external switches.
+        </li>
+    </ul>
+
+    <h4>Additional Accessibility Options</h4>
+    <ol>
+        <li><strong>Accessibility Menu:</strong> Enable a large on-screen menu to control common
+            actions like taking screenshots and accessing settings.
+        </li>
+        <li><strong>Live Transcribe:</strong> Provides real-time transcription of speech to text,
+            useful for users with hearing impairments.
+        </li>
+        <li><strong>Sound Amplifier:</strong> Enhances audio from the environment, making it easier
+            to hear conversations and sounds around you.
+        </li>
+        <li><strong>Color Inversion and Grayscale:</strong> Adjust color settings to make the
+            display easier to see for users with certain vision impairments.
+        </li>
+    </ol>
+
+    <div class="note">
+        <strong>Note:</strong> Accessibility settings can significantly improve the usability of
+        your device for users with different needs. Explore the options to find what works best for
+        you.
+    </div>
+</div>
+
+<div>
+    <hr/>
+    <h3>Add Account</h3>
+    <ol>
+        <li><strong>Open Settings:</strong> Start by opening the Settings app on your Android
+            device.
+        </li>
+        <li><strong>Navigate to Accounts:</strong> Scroll down and select "Accounts" or "Accounts &
+            sync" depending on your device.
+        </li>
+        <li><strong>Add Account:</strong> Tap on "Add account" to start adding a new account.</li>
+    </ol>
+
+    <h4>Choosing Account Type</h4>
+    <ol>
+        <li><strong>Select Account Type:</strong> You will see a list of different account types you
+            can add, such as Google, Email, Facebook, etc. Select the type of account you want to
+            add.
+        </li>
+    </ol>
+
+    <h4>Adding a Google Account</h4>
+    <ol>
+        <li><strong>Enter Email:</strong> If you selected Google, enter your Google email address
+            and tap "Next."
+        </li>
+        <li><strong>Enter Password:</strong> Enter your password and tap "Next."</li>
+        <li><strong>Accept Terms:</strong> Review and accept the terms of service and privacy
+            policy.
+        </li>
+        <li><strong>Complete Setup:</strong> Follow any additional on-screen instructions to
+            complete the setup process.
+        </li>
+    </ol>
+
+    <h4>Adding Other Accounts</h4>
+    <ol>
+        <li><strong>Select Account Type:</strong> If you selected a different account type (e.g.,
+            Email, Facebook), follow the on-screen prompts to enter your login information and
+            complete the setup.
+        </li>
+        <li><strong>Sync Settings:</strong> After adding the account, you may be prompted to select
+            sync settings for the account (e.g., syncing contacts, calendar, emails).
+        </li>
+    </ol>
+
+    <h4>Managing Accounts</h4>
+    <ol>
+        <li><strong>View Accounts:</strong> To view the accounts added on your device, go back to
+            the "Accounts" or "Accounts & sync" settings.
+        </li>
+        <li><strong>Remove Account:</strong> To remove an account, select the account and tap on
+            "Remove account" or the equivalent option.
+        </li>
+        <li><strong>Sync Account:</strong> To manually sync an account, select the account and tap
+            "Sync now" or the equivalent option.
+        </li>
+    </ol>
+
+    <div class="note">
+        <strong>Note:</strong> Adding and managing accounts on your Android device allows you to
+        sync and access information from multiple services. Ensure you have the correct login
+        information for the accounts you wish to add.
+    </div>
+</div>
+
+<div>
+    <hr/>
+    <h3>Search Settings</h3>
+    <ol>
+        <li><strong>Open Settings:</strong> Start by opening the Settings app on your Android
+            device.
+        </li>
+        <li><strong>Navigate to Search:</strong> Scroll down and select "Search" or "Google"
+            depending on your device.
+        </li>
+        <li><strong>Search Settings:</strong> Tap on "Search" or "Search settings" to access the
+            search settings menu.
+        </li>
+    </ol>
+
+    <h4>Managing Search Settings</h4>
+    <ol>
+        <li><strong>SafeSearch:</strong> Enable or disable SafeSearch to filter explicit results in
+            your searches.
+        </li>
+        <li><strong>Languages:</strong> Select the languages you want to include in your search
+            results.
+        </li>
+        <li><strong>Region:</strong> Choose the region for your search results to get more relevant
+            information.
+        </li>
+        <li><strong>Voice Search:</strong> Configure voice search settings, including language,
+            speech output, and personalized results.
+        </li>
+        <li><strong>Accounts & Privacy:</strong> Manage settings related to your Google account and
+            search history.
+        </li>
+        <li><strong>Notifications:</strong> Customize the notifications you receive from the search
+            app.
+        </li>
+    </ol>
+
+    <h4>Using Search Settings</h4>
+    <ol>
+        <li><strong>Customizing Search Results:</strong> Adjust the settings to customize the search
+            results you see based on your preferences.
+        </li>
+        <li><strong>Managing Search History:</strong> You can view and delete your search history
+            under the "Accounts & Privacy" section.
+        </li>
+        <li><strong>Personalized Results:</strong> Enable or disable personalized search results
+            based on your activity and interests.
+        </li>
+    </ol>
+
+    <div class="note">
+        <strong>Note:</strong> Adjusting your search settings can help improve the relevance and
+        safety of your search results. Take time to explore and configure these settings to suit
+        your preferences.
+    </div>
+</div>
+
+<div>
+    <hr/>
+    <h3>Device Information</h3>
+    <ol>
+        <li><strong>Open Settings:</strong> Start by opening the Settings app on your Android
+            device.
+        </li>
+        <li><strong>Navigate to About Phone:</strong> Scroll down and select "About phone" or "About
+            device" depending on your device.
+        </li>
+    </ol>
+
+    <h4>Understanding Device Information</h4>
+    <ul>
+        <li><strong>Device Name:</strong> The name of your device, which can usually be customized.
+        </li>
+        <li><strong>Model Number:</strong> The specific model number of your device.</li>
+        <li><strong>Android Version:</strong> The version of the Android operating system your
+            device is running.
+        </li>
+        <li><strong>Build Number:</strong> The build number of the software currently installed on
+            your device. This can be useful for troubleshooting and technical support.
+        </li>
+        <li><strong>Kernel Version:</strong> The version of the Linux kernel used by Android on your
+            device.
+        </li>
+        <li><strong>Baseband Version:</strong> Information about the baseband version, which handles
+            communication functions like cellular, Wi-Fi, and Bluetooth.
+        </li>
+        <li><strong>Security Patch Level:</strong> Indicates the date of the latest security patch
+            applied to your device. Keeping this updated helps protect your device from
+            vulnerabilities.
+        </li>
+        <li><strong>IP Address:</strong> The IP address assigned to your device when connected to a
+            network.
+        </li>
+        <li><strong>MAC Address:</strong> The unique hardware address of your device’s network
+            interface (usually for Wi-Fi and Bluetooth).
+        </li>
+        <li><strong>IMEI Number:</strong> A unique identifier for your device used by mobile
+            networks to identify valid devices. Often needed for customer support and warranty
+            claims.
+        </li>
+    </ul>
+
+    <h4>Additional Device Information</h4>
+    <ol>
+        <li><strong>Battery Information:</strong> View details about your battery, such as its
+            health, status, and level.
+        </li>
+        <li><strong>Storage Information:</strong> Check the available and used storage on your
+            device.
+        </li>
+        <li><strong>Memory Information:</strong> See the amount of RAM available and used by the
+            device.
+        </li>
+        <li><strong>Legal Information:</strong> Review legal information related to your device,
+            including open-source licenses and regulatory information.
+        </li>
+    </ol>
+
+    <div class="note">
+        <strong>Note:</strong> Knowing your device information can be helpful for troubleshooting
+        issues, understanding your device's capabilities, and providing information for technical
+        support.
+    </div>
+</div>
+
+<div>
+    <hr/>
+    <h3>User Dictionary Settings</h3>
+    <ol>
+        <li><strong>Open Settings:</strong> Start by opening the Settings app on your Android
+            device.
+        </li>
+        <li><strong>Navigate to System:</strong> Scroll down and select "System."</li>
+        <li><strong>Language & Input:</strong> Tap on "Language & input."</li>
+        <li><strong>Personal Dictionary:</strong> Select "Personal dictionary" or "User dictionary"
+            to access the user dictionary settings.
+        </li>
+    </ol>
+
+    <h4>Adding a New Word</h4>
+    <ol>
+        <li><strong>Add Word:</strong> Tap on the "+" or "Add" button to add a new word to the
+            dictionary.
+        </li>
+        <li><strong>Enter Word:</strong> Type the word you want to add to the dictionary.</li>
+        <li><strong>Shortcut (Optional):</strong> You can also add a shortcut for the word, which
+            will allow you to type the shortcut and have it automatically replaced by the full word.
+        </li>
+        <li><strong>Save:</strong> Tap "Save" or "Done" to add the word to your personal dictionary.
+        </li>
+    </ol>
+
+    <h4>Editing or Deleting a Word</h4>
+    <ol>
+        <li><strong>Select Word:</strong> In the personal dictionary, tap on the word you want to
+            edit or delete.
+        </li>
+        <li><strong>Edit Word:</strong> To edit, modify the word or shortcut and save the changes.
+        </li>
+        <li><strong>Delete Word:</strong> To delete, tap on the delete icon (usually a trash can) to
+            remove the word from your dictionary.
+        </li>
+    </ol>
+
+    <h4>Using the User Dictionary</h4>
+    <ol>
+        <li><strong>Typing:</strong> When you type a word that is in your personal dictionary, your
+            keyboard will suggest it as you type.
+        </li>
+        <li><strong>Shortcuts:</strong> If you added shortcuts, typing the shortcut will
+            automatically replace it with the full word, making typing quicker and easier.
+        </li>
+    </ol>
+
+    <div class="note">
+        <strong>Note:</strong> The user dictionary helps improve typing efficiency by allowing you
+        to add frequently used words and shortcuts. Customize it to suit your typing habits.
+    </div>
+</div>
+
+</body>
+</html>
