@@ -30,13 +30,7 @@ This app utilizes the **Navigation Component** for managing navigation between f
 <img src="Screenshot_2024-11-16-15-03-38-802_com.sun_ray.LTE_4G[1].jpg" alt="Home Screen" width="500" height="300">
 
 ### About Screen
-<img src="Screenshot_2024-11-16-15-03-43-457_com.sun_ray.LTE_4G[1].jpg" alt="Settings Options" width="500" height="300">
-
-### Home Screen
-![Home Screen](Screenshot_2024-11-16-15-03-38-802_com.sun_ray.LTE_4G[1].jpg)
-
-### Settings Details
-![Settings Details](Screenshot_2024-11-16-15-03-43-457_com.sun_ray.LTE_4G[1].jpg)
+<img src="Screenshot_2024-11-16-15-03-43-457_com.sun_ray.LTE_4G[1].jpg" alt="About Screen" width="500" height="300">
 
 ## Tech Stack
 
